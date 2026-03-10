@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dharma & Shalini Dairy Farm</title>
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5fff5;
+}
+
+.header{
+    width:100%;
+}
+
+.header img{
+    width:100%;
+    height:auto;
+}
+
+.content{
+    text-align:center;
+    padding:40px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#2e8b57;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <img src="banner.png" alt="Dharma & Shalini Dairy Farm">
+</div>
+
+<div class="content">
+<h2>Welcome to Dharma & Shalini Dairy Farm</h2>
+<p>We provide fresh and healthy dairy products directly from our farm.</p>
+
+<div class="products">
+
+<div class="box">
+<h3>Fresh Milk</h3>
+<p>Pure and natural cow milk.</p>
+</div>
+
+<div class="box">
+<h3>Butter</h3>
+<p>Fresh homemade butter.</p>
+</div>
+
+<div class="box">
+<h3>Paneer</h3>
+<p>Soft and fresh paneer.</p>
+</div>
+
+</div>
+</div>
+
+<footer>
+© 2026 Dharma & Shalini Dairy Farm
+</footer>
+
+</body>
+</html>
